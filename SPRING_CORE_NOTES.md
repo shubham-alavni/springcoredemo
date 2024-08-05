@@ -32,3 +32,36 @@
 - Spring Framework automatically registers the beans in the Spring IoC container.
 - The `@Component` annotation is a generic stereotype for any Spring-managed component.
 - If your classes is not in the same package as the main application class, you can use the `basePackages` attribute.
+
+### Setter Injection
+
+### Constructor Injection vs Setter Injection, which one to use?
+
+### what does `@Autowired` do?
+
+### Field Injection - Now not recommended
+
+### `@Qualifier` Annotation
+
+### `@Primary` Annotation 
+- Only one primary bean per type otherwise it will throw an exception
+
+### which one to use `@Qualifier` or `@Primary`? - Priority
+
+### What does @Lazy Annotation - Lazy Initialization, Advantages and Disadvantages, Use Cases
+
+### Bean Life Cycle - Behind the Scenes
+
+### Bean Scopes - What is a Bean Scope? Use Cases of Different Bean Scopes
+
+### default bean scope - Singleton
+
+### Bean Scopes - Prototype
+
+### Bean Life Cycle methods - @PostConstruct and @PreDestroy
+
+### Prototype Scope and Destroy lifecycle method - Special Note
+
+### Java Config Bean
+
+### @Bean Vs @Component - Which one to use? Use Cases
